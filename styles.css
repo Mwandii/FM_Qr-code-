@@ -1,6 +1,6 @@
 body {
     background-color:  hsl(212, 45%, 89%);
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -16,7 +16,7 @@ body {
     background-color:  white;
     width: 450px;
     border-radius: 8%;
-    margin: 30px;
+    margin: 14em;
 }
 
 .container img {
@@ -25,17 +25,19 @@ body {
     border-radius: 8%;
 }
 
-.container h3 {
+.container h1 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     margin-top: 5px;
+    color:  hsl(218, 44%, 22%);
 }
 
-.container p {
+.container-text {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    padding: 0 36px;
+    padding: 0 3rem;
     margin: 0 0 15px 0;
+    color: hsl(216, 15%, 48%);
 }
